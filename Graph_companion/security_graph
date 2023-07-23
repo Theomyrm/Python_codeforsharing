@@ -1,0 +1,15 @@
+graph {
+	graph [rankdir=TB]
+	node [fillcolor=lightgray fixedsize=true fontname=Helvetica fontsize=12 height=0.8 shape=rectangle style=filled width=2.8]
+	edge [arrowhead=vee arrowsize=0 color=white penwidth=0.8]
+	1 [label="Data a Categorizar" color="#6495ED"]
+	2 [label="Tipo de Formato" color="#90EE90"]
+	3 [label=Plataforma color="#90EE90"]
+	4 [label="RH correspondiente" color="#90EE90"]
+	1 -- 2 [encoding="utf-8"]
+	2 -- 3 [encoding="utf-8"]
+	3 -- 4 [encoding="utf-8"]
+	1 -- 2 [label="" color=black weight=1]
+	2 -- 3 [label="" color=black weight=2]
+	3 -- 4 [label="" color=black weight=3]
+}

@@ -1,0 +1,73 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "attrs": {
+                "label": "Data a Categorizar",
+                "color": "#6495ED"
+            }
+        },
+        {
+            "id": "2",
+            "attrs": {
+                "label": "Tipo de Formato",
+                "color": "#90EE90"
+            }
+        },
+        {
+            "id": "3",
+            "attrs": {
+                "label": "Plataforma",
+                "color": "#90EE90"
+            }
+        },
+        {
+            "id": "4",
+            "attrs": {
+                "label": "RH correspondiente",
+                "color": "#90EE90"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "from": "1",
+            "to": "2",
+            "attrs": {
+                "weight": 1,
+                "label": ""
+            }
+        },
+        {
+            "from": "2",
+            "to": "3",
+            "attrs": {
+                "weight": 2,
+                "label": ""
+            }
+        },
+        {
+            "from": "3",
+            "to": "4",
+            "attrs": {
+                "weight": 3,
+                "label": ""
+            }
+        }
+    ],
+    "format_options": {
+        "format": "png",
+        "style": "clean",
+        "node_shape": "rectangle",
+        "node_color": "white",
+        "edge_color": "black",
+        "font": "Arial",
+        "font_size": "15",
+        "node_width": "0",
+        "node_height": "0",
+        "edge_width": "0",
+        "edge_arrow_size": "0",
+        "rankdir": "RL",
+        "layout": "cartesian"
+    }
+}

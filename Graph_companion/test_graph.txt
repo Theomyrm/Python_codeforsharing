@@ -1,0 +1,28 @@
+# nodos
+1,{"label":"Dataframe","color":"purple"}
+2,{"label":"Sensibilidad","color":"red"}
+3,{"label":"Cantidad de trafico","color":"green"}
+4,{"label":"Tipo de datos","color":"blue"}
+5,{"label":"Nivel de seguridad","color":"yellow"}
+
+# aristas
+1,2,{"weight":1, "label":"DATA_INPUT"}
+2,3,{"weight":2, "label":"Clasificacion en alta, media o baja sensibilidad"}
+3,4,{"weight":3, "label":"Clasificacion en alta, media o baja cantidad de trafico"}
+4,5,{"weight":4, "label":"Clasificacion en alta, media o baja tipo de datos"}
+4,5,{"weight":5, "label":"Informacion que es altamente sensible,\\nde alto trafico y financiera se coloca en el nivel superior de seguridad,\\nmientras que la informacion menos sensible de bajo trafico,\\nse coloca en un nivel inferior."}
+
+# opciones de formato de texto
+format: png
+style: clean
+node_shape: rectangle
+node_color: white
+edge_color: black
+font: Arial
+font_size: 15
+node_width: 0
+node_height: 0
+edge_width: 0
+edge_arrow_size: 0
+rankdir: RL
+layout: cartesian
